@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.botrix.customviews.charting.PieChart
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        custom:pointerRadius="4dp"
+        custom:autoCenterPointerInSlice="true"
+        custom:labelColor="@android:color/black"
+        custom:pieRotation="0"
+        android:background="@android:color/white"
+        custom:highlightStrength="1.12"
+        custom:labelPosition="left"
+        custom:labelY="85dp"
+        custom:labelWidth="110dp"
+        custom:labelHeight="20dp"
+        custom:showText="true"
+        android:layout_weight="100"
+        android:padding="10dp"
+        android:id="@+id/Pie"/><Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/Reset"
+        android:text="@string/reset_button"/>
+</LinearLayout>
